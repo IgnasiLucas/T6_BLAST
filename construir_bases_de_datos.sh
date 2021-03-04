@@ -6,4 +6,4 @@ tar -xzvf 16S_ribosomal_RNA.tar.gz
 
 # Base de datos de proteinas de aves:
 
-makeblastdb -in birds.fas -title birds -dbtype prot
+makeblastdb -in birds.fas -title birds -out birds -dbtype prot
